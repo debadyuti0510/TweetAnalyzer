@@ -2,10 +2,10 @@ import tweepy
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 import numpy as np
-CONSUMER_KEY = "97fOpMbhXgMDc8bTgXq9ybJMT"
-CONSUMER_SECRET = "wIHtO7JHGkzjB5QpindcsrQ1JdINbAXA9jFSOvJfPZA4nrvVtp"
-ACCESS_TOKEN = "422778126-HjWadB5Tk6x1ZwxgbEf3imT3dKMdBDszKYF73yPo"
-ACCESS_TOKEN_SECRET = "yO92cNSdIvbdvH9Fbbw0ueWIbJ7iiWvLsjneuOauO1OcN"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
